@@ -1,0 +1,35 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #B0A4A4;
+}
+
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+div#container {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
+div#terminal {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.xterm .xterm-viewport {
+  border-radius: 25px;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+}
+
+.terminal {
+  padding: 10px;
+}
